@@ -1,28 +1,50 @@
 html {
     background-color: bisque;
+    font-family: "houschka-rounded", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 body {
     margin: 0;
 }
 
-.site-links {
-    background-color: rgb(255, 208, 0);
-    list-style-type: none; 
+.site-header {
+    background-color: pink;
     padding: 10px;
+}
+
+.sidebar {
+    background-color: rgb(215, 255, 192);
+    padding: 10px;
+    flex: 0 0 200px;
+}
+
+.site-main {
+    background-color:rgb(255, 254, 192);
+    padding: 10px;
+}
+
+.site-footer {
+    background-color:rgb(255, 192, 250);
+    padding: 10px;
+}
+
+.two-col {
     display: flex;
     gap: 10px;
+    margin: 10px 0;
 }
 
-.site-link {
-   background-color: orange;
-   padding: 10px;
-   color: black;
-   text-decoration: none;
-   border-radius: 10px;
-   display: inline-block;
+.wrapper {
+    background-color:white;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
 }
 
-.site-link:hover {
-    background-color: darkorange;
+.site-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
 }
